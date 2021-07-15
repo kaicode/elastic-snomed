@@ -19,6 +19,8 @@ public class BranchMetadataHelper {
 	// Metadata for internal use only and can't be updated via branch metadata REST service
 	public static final String INTERNAL_METADATA_KEY = "internal";
 
+	public static final String CLASSIFIED_KEY = "classified";
+
 	@Autowired
 	private ObjectMapper objectMapper;
 
